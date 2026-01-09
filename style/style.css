@@ -15,16 +15,22 @@ body {
   padding: 8px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
 .firstpt-hd nav a {
   text-transform: uppercase;
   padding: 0 4px;
   color: grey;
   font-size: 13px;
   font-weight: 500;
-}
-
-a {
-  text-decoration: none;
 }
 
 nav ul {
@@ -36,13 +42,13 @@ nav ul {
   padding-bottom: 5px;
 }
 
+nav ul li a {
+  color: #000;
+}
+
 nav ul li,
 .spanfont {
   color: grey;
-}
-
-nav ul li a {
-  color: #000;
 }
 
 .headerbutton {
@@ -107,7 +113,7 @@ article {
 
 .redlive {
   font-size: 13px;
-  color: #ff0000;
+  color: #f00;
   font-weight: 550;
 }
 
@@ -135,12 +141,6 @@ article {
 
 .centerauto {
   margin-top: auto;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
 }
 
 .ukrainheader {
@@ -292,7 +292,12 @@ ul {
 }
 
 .audioflexmod span {
- margin: auto 4px;
+  margin: auto 4px;
+}
+
+.audioflexmod img {
+  height: 30px;
+  width: 30px;
 }
 
 .placeflex,

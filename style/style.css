@@ -4,7 +4,8 @@
 }
 
 body {
-  margin: 0 18rem;
+  width: 79rem;
+  margin: auto;
 }
 
 .firstpt-hd,
@@ -37,24 +38,296 @@ nav ul {
 
 nav ul li,
 .spanfont {
-    color: grey;
+  color: grey;
 }
 
-nav ul li a{
+nav ul li a {
   color: #000;
 }
 
+.headerbutton {
+  background-color: #507184;
+  border-radius: 5px;
+  color: white;
+  padding: 0 10px;
+  font-weight: 700;
+  border: none;
+}
+
 hr {
- border: none;
- margin: 2px 0;
- border-bottom: 1px solid #000;
+  border: none;
+  margin: 2px 0;
+  border-bottom: 1px solid #000;
+}
+
+.column-one-section {
+  border-right: 1px solid #cccaca;
+  padding-right: 10px;
 }
 
 .mainsection-one {
   display: grid;
-  grid-template-columns: 75% 25%;    
+  grid-template-columns: 75% 25%;
+  padding: 4px 0;
 }
 
+.latestnew,
+.secondlatest {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border-bottom: 1px solid #cccaca;
+  padding: 14px 0;
+}
+
+p {
+  color: grey;
+  line-height: 25px;
+}
+
+article {
+  padding: 12px 0;
+  margin-right: 18px;
+}
+
+.latest-article {
+  border-bottom: 1px solid #cccaca;
+}
+
+.news-article {
+  border-right: 1px solid #cccaca;
+}
+
+.vid {
+  padding-left: 14px;
+}
+
+.topmargin {
+  margin-top: -11px;
+}
+
+.redlive {
+  font-size: 13px;
+  color: #ff0000;
+  font-weight: 550;
+}
+
+.secondnew,
+.firstnew {
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding: 8px 0;
+  gap: 10px;
+}
+
+.bottomborder {
+  border-bottom: 1px solid #000;
+}
+
+.graybottom {
+  border-bottom: 1px solid #cccaca;
+  padding-bottom: 10px;
+}
+
+.flexform {
+  display: flex;
+  gap: 10px;
+}
+
+.centerauto {
+  margin-top: auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.ukrainheader {
+  padding: 10px 0;
+}
+
+.gotip p {
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.placestovisit,
+.place-images {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.swissupdate {
+  display: flex;
+  padding: 12px 0;
+}
+
+.part-two {
+  margin-top: 14px;
+  padding-left: 12px;
+}
+
+.album {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.opinion-container,
+.bottomgrayborder {
+  padding: 10px 0;
+  border-bottom: 1px solid #cccaca;
+}
+
+.text-image,
+.thomas {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.grayheader {
+  color: gray;
+  font-size: 13px;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.special {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.videosec,
+.topborder {
+  border-top: 1px solid #000;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.videos,
+.imagesheadline {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+}
+
+.vid1 {
+  border-right: 1px solid #cccaca;
+}
+
+.vidpad {
+  padding-left: 14px;
+}
+
+.morenews-main,
+.sportnews-container,
+.culturemain {
+  display: grid;
+  grid-template-columns: 25% 47% 28%;
+  padding-top: 10px;
+}
+
+.rightgrayborder {
+  border-right: 1px solid #cccaca;
+  padding-right: 15px;
+  margin-right: 15px;
+}
+
+.lastgrayborder {
+  padding-top: 10px;
+}
+
+.playconnections {
+  padding-top: 10px;
+  display: flex;
+}
+
+.toborderright {
+  border-right: 1px solid #cccaca;
+  padding-right: 15px;
+  margin-right: 15px;
+}
+
+.whiteborderright {
+  padding-right: 15px;
+  margin-right: 15px;
+}
+
+.subheadline {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.culturheadline {
+  margin: auto;
+}
+
+.main-audio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px 0;
+  gap: 0 12px;
+}
+
+.audioflex {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 0 10px;
+}
+
+.audioflexmod {
+  display: flex;
+  padding: 5px 0;
+}
+
+.audioflexmod span {
+ margin: auto 4px;
+}
+
+.placeflex,
+.placeflexsec-two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px 0;
+}
+
+.nytnews {
+  padding: 12px 0;
+}
+
+.placegrids {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.flex-nytnews,
+.nyt-opiniondetails,
+.nytarts-details,
+.nytliving-details {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  padding: 10px 0;
+}
+
+.flex-nytnews div img,
+.nyt-opiniondetails div img,
+.nytarts-details div img,
+.nytliving-details div img {
+  width: 100%;
+  height: 160px;
+}
 
 .min-read {
   font-size: 13px;
@@ -65,4 +338,41 @@ hr {
   color: gray;
   display: flex;
   justify-content: end;
+}
+
+footer {
+  border-top: 1px solid #cccaca;
+  margin: 25px 0;
+  padding-top: 10px;
+  box-shadow: 0 -3px 1px 0 #cccaca;
+}
+
+.footerdetails {
+  padding: 10px 0;
+}
+
+.footerdetails div ul {
+  display: block;
+  line-height: 25px;
+}
+
+.footerdetails div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grayline {
+  border-bottom: 1px solid #cccaca;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.borderleft {
+  border-left: 1px solid #cccaca;
+  padding-left: 20px;
+}
+
+.lastsection ul li {
+  color: #808080;
+  font-size: 13px;
 }

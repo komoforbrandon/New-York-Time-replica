@@ -15,6 +15,11 @@ body {
   padding: 8px 0;
 }
 
+.menu,
+.profile {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -58,6 +63,7 @@ nav ul li,
   padding: 0 10px;
   font-weight: 700;
   border: none;
+  cursor: pointer;
 }
 
 hr {
@@ -251,6 +257,7 @@ article {
 .playconnections {
   padding-top: 10px;
   display: flex;
+  justify-content: space-between;
 }
 
 .toborderright {
@@ -380,4 +387,103 @@ footer {
 .lastsection ul li {
   color: #808080;
   font-size: 13px;
+}
+
+@media (max-width: 1152px) {
+  .firstpt-hd,
+  .lastpt-hd,
+  .secondpt-hd p {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    margin: 10px;
+  }
+
+  .nyticon {
+    height: 82px;
+  }
+
+  .menu,
+  .profile {
+    display: block;
+    width: 45px;
+    height: 42px;
+    margin: auto 0;
+  }
+
+  .mainsection-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-one-section {
+    border: none;
+  }
+
+  .videos {
+    overflow-x: scroll;
+  }
+
+  .editorialboard {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .album img {
+    width: 380px;
+  }
+
+  .incasemissed {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .incasemissed div img {
+    width: 150px;
+  }
+
+  .morenews-main,
+  .sportnews-container,
+  .culturemain {
+    grid-template-columns: 35% 65%;
+  }
+
+  .rightgrayborder {
+    padding-right: 8px;
+    margin-right: 8px;
+  }
+
+  .sportpartwo,
+  .morenewsimg {
+    border-right: none;
+  }
+
+  .cultureheadlines,
+  .sportheadlines,
+  .headlines {
+    width: 98vw;
+  }
+
+  .swissupdate img {
+    width: 100%;
+  }
+
+  .flex-nytnews,
+  .nyt-opiniondetails,
+  .nytarts-details,
+  .nytliving-details {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .flex-nytnews div img,
+  .nyt-opiniondetails div img,
+  .nytarts-details div img,
+  .nytliving-details div img {
+    height: 200px;
+  }
 }

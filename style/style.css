@@ -16,7 +16,8 @@ body {
 }
 
 .menu,
-.profile {
+.profile,
+.secondvid {
   display: none;
 }
 

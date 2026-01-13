@@ -528,6 +528,7 @@ footer {
   .profile {
     width: 35px;
     height: 32px;
+    padding-right: 8px;
   }
 
   .swissupdate img {
@@ -613,7 +614,7 @@ footer {
   }
 
   .album img {
-    width: 250px;
+    width: 200px;
   }
 
   .flex-nytnews div img,

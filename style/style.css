@@ -487,3 +487,134 @@ footer {
     height: 200px;
   }
 }
+
+@media (max-width: 768px) {
+  .firstvid {
+    display: none;
+  }
+  .latestnew,
+  .secondlatest,
+  .placestovisit,
+  .morenews-main,
+  .sportnews-container,
+  .culturemain,
+  .swissupdate {
+    display: flex;
+    flex-direction: column;
+  }
+  .eg-video {
+    order: 1;
+  }
+  .places {
+    order: 2;
+  }
+  .news-article {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .secondvid {
+    display: block;
+    width: 98%;
+  }
+  .menu,
+  .profile {
+    width: 35px;
+    height: 32px;
+  }
+  .swissupdate img {
+    width: 98%;
+    margin: auto;
+  }
+  .subheadline {
+    grid-template-columns: 60% 40%;
+  }
+  .sleepimage {
+    margin: auto;
+  }
+  .subheadline img {
+    width: 220px;
+  }
+  .main-audio,
+  .placeflex,
+  .placeflexsec-two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .rightgrayborder,
+  .toborderright,
+  .borderleft {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .opinion-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .opinion-container img,
+  .opinion-container {
+    width: 98%;
+    margin: auto;
+  }
+  .gridcontainer {
+    display: block;
+  }
+  .incasemissed {
+    display: block;
+  }
+  .thomas {
+    display: grid;
+  }
+  .imagesheadline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .nyticon {
+    height: 52px;
+  }
+  .vid {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+  }
+  .vid img {
+    width: 98%;
+  }
+  .flex-nytnews,
+  .nyt-opiniondetails,
+  .nytarts-details,
+  .nytliving-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flex-nytnews div img,
+  .nyt-opiniondetails div img,
+  .nytarts-details div img,
+  .nytliving-details div img {
+    height: 180px;
+    width: 96%;
+  }
+  .album img {
+    width: 250px;
+  }
+  .lastsection ul {
+    display: grid;
+    grid-template-columns: 35% 15% 15% 15% 20%;
+    gap: 2px
+  }
+  .xfooterdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .xfooterdetails ul li {
+    display: none;
+     border-top: 1px solid #CCCACA;
+  }
+  .xfooterdetails ul .boldedfoot {
+    display: block;
+    border: 2px 1px solid #CCCACA;
+  }
+}

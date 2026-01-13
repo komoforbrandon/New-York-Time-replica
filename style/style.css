@@ -561,7 +561,7 @@ footer {
     padding: 0;
     margin: 0;
   }
-  
+
   .opinion-container {
     display: flex;
     flex-direction: column;
@@ -596,9 +596,8 @@ footer {
   }
 
   .vid {
-    margin: 0;
+    margin: auto 0;
     padding: 0;
-    margin: auto;
   }
 
   .vid img {
@@ -627,7 +626,7 @@ footer {
   .lastsection ul {
     display: grid;
     grid-template-columns: 35% 15% 15% 15% 20%;
-    gap: 2px
+    gap: 2px;
   }
 
   .xfooterdetails {

@@ -6,6 +6,7 @@
 body {
   width: 79rem;
   margin: auto;
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Imperial+Aramaic&display=swap');
 }
 
 .firstpt-hd,

@@ -493,7 +493,7 @@ footer {
   }
 }
 
-@media (max-width: 570px) {  
+@media (max-width: 570px) {
   html {
     margin: 0;
     padding: 0;
@@ -505,7 +505,7 @@ footer {
     margin: 5px;
     overflow-x: hidden;
   }
-  
+
   header {
     width: 99%;
   }
@@ -554,7 +554,7 @@ footer {
   .imagemobile {
     width: 99%;
   }
-  
+
   h2 {
     font-size: 21px;
   }
